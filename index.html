@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" type="text/css" href="styles.css">
+
     <title>Good Eats- Street Tacos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +14,7 @@
   </head>
 
   <body>
-    <header>
+    <section id="st-tacos">
       <h1>Street Tacos</h1>
       
       <menu>
@@ -85,7 +87,7 @@
               <rect x="7" y="13" width="10" height="8" rx="2" />
             </svg>
           </a>
-        </li>
+        </li> 
         <li>
           <a href="#jump"
             ><span>Jump to Recipe</span
@@ -116,31 +118,29 @@
         Street tacos are delicious, amazing, and oh so mouthwatering! Bite into
         tender steak, zesty lime flavor with a hint of spice and add on
         tomatoes, avocado, and onions for a savory bite you are going to love!
-      </p>
-      <p>
+        <br>
+        <br>
         These street tacos are completely jam-packed with flavor and they are so
         easy to make. I love how the meat is so tender and juicy and only takes
         an hour to marinate! If you absolutely love tacos like me, try out these
         other amazing taco recipes! These taco-stuffed avocados, Baja fish
         tacos, and ground beef tacos will not disappoint!!
       </p>
-    </header>
+    </section>
 
     <section id="details">
       <h2>Details</h2>
-      <dl>
-        <dt>Prep Time:</dt>
-        <dd>10 minutes</dd>
-        <dt>Cook Time:</dt>
-        <dd>10 minutes</dd>
-        <dt>Total Time:</dt>
-        <dd>20 minutes</dd>
-        <dt>Author:</dt>
-        <dd>Taco Cheesington</dd>
-        <dt>Servings:</dt>
-        <dd>6 Tacos</dd>
-      </dl>
+      
+    <ul>
+        <li><span>Prep Time </span><span class="detailslist" itemprop="prepTime" content="PT10M">10 minutes</span></li>
+        <li><span>Cook Time </span><span class="detailslist" itemprop="cookTime" content="PT10M">10 minutes</span></li>
+        <li><span>Total Time </span><span class="detailslist" itemprop="totalTime" content="PT20M">20 minutes</span></li>
+        <li><span>Author </span><span class="detailslist" itemprop="author">Taco Cheesington</span></li>
+        <li><span>Servings </span><span class="detailslist" itemprop="recipeYield">6 Tacos</span></li>
+    </ul>
+
     </section>
+
     <section id="ingredients">
       <h2>Ingredients</h2>
       <ul>
@@ -157,6 +157,7 @@
         <li>Corn tortillas</li>
       </ul>
     </section>
+
     <section id="directions">
       <h2>Directions</h2>
       <ol>
@@ -556,12 +557,12 @@
         </div>
       </section>
     </aside>
+
     <nav>
       <h2>Main Navigation</h2>
       <input type="checkbox" id="dropdown">
-      <label for="dropdown"
-        ><span>Menu</span
-        ><svg
+      <label for="dropdown"><span>Menu</span>
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
           height="40"
@@ -648,7 +649,7 @@
         </li>
         <li id="sign-in">
           <a href="#sign-in"
-            ><span>Sign-in</span>
+            ><span>Sign in/up</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-user-circle"
@@ -786,8 +787,8 @@
         </li>
       </ul>
       <h3>Good Eats</h3>
-      <small class="small-1">Copyright 2022 </small>
-      <small class="small-2">Taco Cheesington</small>
+      <small class="small1">Copyright 2022 </small>
+      <small class="small2">Taco Cheesington</small>
       <img class="footer-image" src="images/taco-cheesington.png" alt="tattooed chef seasoning a dish of meat and parsley">
     </footer>
   </body>
