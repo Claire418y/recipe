@@ -1226,3 +1226,19 @@ footer img {
   }
 }
 
+@media print {
+    * {
+      margin: 0.5in;
+      font-family: serif;
+      color: black;
+      stroke: black;
+      background-color: white;
+      border: black;
+    }
+  
+    img, svg, nav {
+      display: none;
+    }
+  
+  }
+
